@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 # insidesp
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/diminutive/insidesp/workflows/R-CMD-check/badge.svg)](https://github.com/diminutive/insidesp/actions)
 <!-- badges: end -->
 
 The goal of insidesp is to do fast point in polygon classification, the sp way. 
@@ -46,3 +47,7 @@ insidesp::inside_sp(pts, coords)
 
 ```
 
+
+## Code of Conduct
+
+Please note that the insidesp project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.

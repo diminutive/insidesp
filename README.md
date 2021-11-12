@@ -4,6 +4,8 @@
 # insidesp
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/diminutive/insidesp/workflows/R-CMD-check/badge.svg)](https://github.com/diminutive/insidesp/actions)
 <!-- badges: end -->
 
 The goal of insidesp is to do fast point in polygon classification, the
@@ -30,3 +32,10 @@ pts <- structure(c(0.193090028221607, 0.134340033623905, 0.194265028113561,
 insidesp::inside_sp(pts, coords)
 #> [1] 0 0 0 1 1 0 0
 ```
+
+## Code of Conduct
+
+Please note that the insidesp project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
